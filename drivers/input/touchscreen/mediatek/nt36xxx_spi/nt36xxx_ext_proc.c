@@ -1714,7 +1714,7 @@ static ssize_t nvt_edge_reject_switch_proc_write(struct file *filp,const char __
 
 	ret = count;
 out:
-	char *tmp_buf = NULL;
+	//char *tmp_buf = NULL;
 	NVT_LOG("--\n");
 	return ret;
 }

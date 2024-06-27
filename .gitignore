@@ -120,15 +120,9 @@ kernel/configs/android-*.cfg
 
 # out/ directory
 out/
-
 KernelSU/
-
 interrupt.h
-
 gcc/
-
-clang/
-
 toolchains/
-
 kuro/
+clang/
