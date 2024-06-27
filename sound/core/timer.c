@@ -303,7 +303,6 @@ int snd_timer_open(struct snd_timer_instance **ti,
 			if (timeri->flags & SNDRV_TIMER_IFLG_EXCLUSIVE) {
 			err = -EBUSY;
 			goto unlock;
-                        t;
 		}
 	}
 	if (timer->num_instances >= timer->max_instances) {
