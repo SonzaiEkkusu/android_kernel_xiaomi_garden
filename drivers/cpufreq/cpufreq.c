@@ -1364,7 +1364,7 @@ static int cpufreq_online(unsigned int cpu)
 {
 	struct cpufreq_policy *policy;
 	bool new_policy;
-	unsigned long flags;
+	unsigned long flags = 0;
 	unsigned int j;
 	int ret;
 
