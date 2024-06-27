@@ -45,4 +45,3 @@ obj-$(CONFIG_BCM2708_VCHIQ)	+= vc04_services/
 obj-$(CONFIG_NANOHUB)		+= nanohub/
 obj-$(CONFIG_QCA_CLD_WLAN)	+= qcacld-3.0/
 obj-y                              += imgtec/
-#obj-$(CONFIG_KSU) += kernelsu/
