@@ -1483,8 +1483,13 @@ config MFD_VX855
 	  and/or vx855_gpio drivers for this to do anything useful.
 
 config MFD_ARIZONA
-	select REGMAP
-	select REGMAP_IRQ
+    bool "Arizona MFD core support"
+    select REGMAP
+    select REGMAP_IRQ
+    help
+      This adds support for the core Arizona MFD driver, which is
+      used to manage various devices found on Wolfson Arizona
+      series of audio hubs.
 
 config MFD_PM8XXX_DEBUG
 	tristate "Qualcomm PM8xxx debugfs support"
